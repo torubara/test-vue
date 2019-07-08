@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="top-nav">
+        <div class="block-wrapper">
+          <button class="burger-menu burger_menu_icon"></button>
+        </div>
+        <div class="block-wrapper">
+          <div class="logo logotype_shape"></div>
+          <button class="new-payment-button">Новый платеж <div class="plus_icon"></div>
+          </button>
+        </div>
+        <div class="block-wrapper">
+          <button class="settings-button setting_icon"></button>
+          <button class="messages-button chat_icon"></button>
+          <div class="messages-counter">5</div>
+        </div>
+        <div class="block-wrapper">
+          <button class="user-button">
+            <img class="user-img" src="img/user_img.png" alt="Фото пользователя">
+            <div class="down_arrow_icon"></div>
+            <div class="user-company">
+              <p class="user-company-name"><span>ИП </span>Байдовлетов</p>
+              <p class="user-company-subtitle">Байдовлетов Антип Львович</p>
+            </div>
+          </button>
+        </div>
+        <div class="block-wrapper">
+          <button class="log-out-button log_out_icon"></button>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <nav class="left-nav">
+      <ul class="left-nav-__list">
+        <li class="left-nav__item">
+          <a class="left-nav__link" href="#">Платежные документы</a>
+        </li>
+        <li class="left-nav__item">
+          <a class="left-nav__link" href="#">Валютные переводы</a>
+        </li>
+        <li class="left-nav__item">
+          <a class="left-nav__link" href="#">Конвертация</a>
+        </li>
+        <li class="left-nav__item">
+          <a class="left-nav__link" href="#">Кредиты</a>
+        </li>
+        <li class="left-nav__item">
+          <a class="left-nav__link" href="#">Депозиты</a>
+        </li>
+        <li class="left-nav__item">
+          <a class="left-nav__link" href="#">Сотрудники</a>
+        </li>
+        <li class="left-nav__item">
+          <a class="left-nav__link" href="#">Контрагенты</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="first_screen_information">
+      <div class="container">
+        <button class="back-button left_arrow_icon"></button>
+        <h1 class="account-name">Депозит «Акционный»</h1>
+        <h4 class="account-type">Депозит</h2>
+        <button class="close-account-button">Закрыть досрочно</button>
+        <div class="account-descriptions">
+          <div class="description">
+            <div class="description-title">Сумма депозита</div>
+            <div class="description-content"></div>
+          </div>
+          <div class="description">
+            <div class="description-title">Дата окончания</div>
+            <div class="description-content"></div>
+          </div>
+          <div class="description">
+            <div class="description-title">Следующее вознаграждение</div>
+            <div class="description-content"></div>
+          </div>
+          <div class="description">
+            <div class="description-title">Ставка</div>
+            <div class="description-content"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="account-details">
+      <div class="container">
+        <div class="account-details-inner">
+          <h2 class="account-details-title">Детали депозита</h2>
+          <div class="tabs">
+            <ul class="tabs-list">
+              <li class="tab-item">
+                <a href="" class="tab-link">Неделя</a>
+              </li>
+              <li class="tab-item">
+                <a href="" class="tab-link">Месяц</a>
+              </li>
+              <li class="tab-item">
+                <a href="" class="tab-link">Год</a>
+              </li>
+            </ul>
+          </div>
+          <button class="save-list-button">Сохранить выписку</button>
+          <div class="account-sum">
+            <div class="sum-card">
+              <div class="sum-title">Входящий остаток</div>
+              <div class="sum-number"></div>
+            </div>
+            <div class="sum-card">
+              <div class="sum-title">Поступления</div>
+              <div class="sum-number"></div>
+            </div>
+            <div class="sum-card">
+              <div class="sum-title">Списания</div>
+              <div class="sum-number"></div>
+            </div>
+            <div class="sum-card">
+              <div class="sum-title">Исходящий остаток</div>
+              <div class="sum-number"></div>
+            </div>
+          </div>
+          <ul class="details-table-tabs">
+            <li class="details-table-title">
+              <a href="" class="details-table-link">Номер</a>
+            </li>
+            <li class="details-table-title">
+              <a href="" class="details-table-link">Дата</a>
+            </li>
+            <li class="details-table-title">
+              <a href="" class="details-table-link">Контрагент</a>
+            </li>
+            <li class="details-table-title">
+              <a href="" class="details-table-link">Назаначение</a>
+            </li>
+            <li class="details-table-title">
+              <a href="" class="details-table-link">Сумма</a>
+            </li>
+          </ul>
+          <div class="line">
+            <div class="line-number">239807</div>
+            <div class="line-date">21.05.2018</div>
+            <div class="line-contractor">ООО «Электротехнические решения»</div>
+            <div class="line-contractor-subtitle">KZ23453467657</div>
+            <div class="line-purpose">Перевод средств на счета карт сотрудников реестр 86380669 заработная плата</div>
+            <div class="line-sum">89 974,35 <span>KZT</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

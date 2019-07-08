@@ -1,0 +1,359 @@
+@font-face {
+  font-family: 'Fira Sans';
+  src:url(../fonts/Fira_Sans/FiraSans-Light.woff2) format('woff2'),
+      url(../fonts/Fira_Sans/FiraSans-Light.woff) format('woff') ;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src:url(../fonts/Fira_Sans/FiraSans-Regular.woff2) format('woff2') ,
+      url(../fonts/Fira_Sans/FiraSans-Regular.woff) format('woff') ;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src:url(../fonts/Fira_Sans/FiraSans-Medium.woff2) format('woff2'),
+      url(../fonts/Fira_Sans/FiraSans-Medium.woff) format('woff') ;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6fa;
+  font-family: 'Fira Sans';
+  font-weight: 400;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: 'Fira Sans';
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+h1, h2, h4 {
+  font-weight: 400;
+}
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #e4e6eb;
+  /*height: 110px;*/
+}
+
+ header button {
+  font-size: 14px;
+ }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  /*justify-content: space-between;*/
+  height: 110px;
+}
+
+.new-payment-button {
+  display: flex;
+  height: 45px;
+  background-color: #1897d8;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0 40px;
+  box-shadow:  0px 1px 20px 9px #1897d812;
+}
+
+.plus_icon {
+  position: relative;
+  left: 20px;
+}
+
+.settings-button {
+  margin-right: 35px;
+}
+
+.messages-button {
+  margin-right: 10px;
+}
+
+.messages-counter {
+  width: 20px;
+  height: 20px;
+  background-color: #28478f;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.user-company-name span, .user-company-subtitle {
+  color: #9e9e9e;
+}
+
+.user-button {
+  display: flex;
+  position: relative;
+}
+
+.user-img {
+  margin-right: 20px;
+}
+
+.arrow-icon {
+  background-image: url(../img/sprite/sprites.png);
+  background-repeat: no-repeat;
+  background-position: -71px -121px ;
+  width: 8px;
+  height: 5px;
+}
+
+.user-company {
+  text-align: left
+}
+
+.block-wrapper:first-child{
+  display: none;
+  width: 100px;
+}
+
+.block-wrapper:nth-child(2) {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  padding-left: 0;
+}
+
+.block-wrapper:nth-child(3) {
+  width: 190px;
+}
+
+.block-wrapper:nth-child(4) {
+ width: 450px;
+}
+
+.block-wrapper {
+  display: flex;
+  border-right: 1px solid #e4e6eb;
+  padding: 0 40px;
+  /*height: 110px;*/
+}
+
+.block-wrapper:last-child {
+  border-right: none;
+  max-width: 100px;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.first_screen_information {
+  padding-top: 90px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+
+.left-nav {
+  display: none;
+}
+
+.user-company p {
+  margin: 0;
+}
+
+.account-name {
+  font-weight: 300;
+  font-size: 48px;
+}
+
+
+.account-type {
+  font-size: 14px;
+  color:#9e9e9e;
+  padding-bottom: 50px;
+}
+
+.description-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  color:#9e9e9e;
+}
+
+.first_screen_information .container {
+  position: relative;
+}
+
+.close-account-button {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 0 40px;
+  box-shadow:  0px 1px 20px 9px #1897d812;
+}
+
+
+
+.account-descriptions {
+  display: flex;
+}
+
+/*.account-details {
+  background-color: #f5f6fa
+}*/
+
+/*СПРАЙТ - НАЧАЛО БЛОКА СО СПРАЙТОМ*/
+
+.calendar_icon, .chat_icon, .burger_menu_icon, .contractors_icon, .conversion_icon, .credit_icon, .cross_icon, .currency_icon, .document_icon, .down_arrow_icon_blue, .down_arrow_icon, .employees_icon, .left_arrow_icon, .log_out_icon, .logotype_shape, .plus_icon, .point_dot, .setting_icon{
+  background-image: url(../img/sprite/sprites.png);
+  background-repeat: no-repeat;
+}
+
+.calendar_icon{
+  background-position: -64px -412px ;
+  width: 20px;
+  height: 22px;
+}
+
+.chat_icon{
+  background-position: -15px -213px ;
+  width: 24px;
+  height: 24px;
+}
+
+.burger_menu_icon{
+  background-position: -15px -63px ;
+  width: 20px;
+  height: 18px;
+}
+
+.contractors_icon{
+  background-position: -65px -363px ;
+  width: 24px;
+  height: 24px;
+}
+
+.conversion_icon{
+  background-position: -63px -312px ;
+  width: 24px;
+  height: 20px;
+}
+
+.credit_icon{
+  background-position: -15px -314px ;
+  width: 24px;
+  height: 20px;
+}
+
+.cross_icon{
+  background-position: -70px -217px ;
+  width: 14px;
+  height: 14px;
+}
+
+.currency_icon{
+  background-position: -15px -364px ;
+  width: 24px;
+  height: 20px;
+}
+
+.document_icon{
+  background-position: -69px -266px ;
+  width: 16px;
+  height: 20px;
+}
+
+.down_arrow_icon_blue{
+  background-position: -71px -71px ;
+  width: 8px;
+  height: 5px;
+}
+
+.down_arrow_icon{
+  background-position: -65px -116px ;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+}
+
+.employees_icon{
+  background-position: -17px -411px ;
+  width: 16px;
+  height: 21px;
+}
+
+.left_arrow_icon{
+  background-position: -65px -170px ;
+  width: 24px;
+  height: 8px;
+}
+
+.log_out_icon{
+  background-position: -15px -265px ;
+  width: 20px;
+  height: 20px;
+}
+
+.logotype_shape{
+  background-position: 0 0;
+  width: 50px;
+  height: 50px;
+}
+
+.plus_icon{
+  background-position: -19px -116px ;
+  width: 16px;
+  height: 16px;
+}
+
+.point_dot{
+  background-position: -69px -19px ;
+  width: 12px;
+  height: 12px;
+}
+
+.setting_icon{
+  background-position: -14px -163px ;
+  width: 22px;
+  height: 22px;
+}
+
+/*КОНЕЦ БЛОКА СО СПРАЙТОМ*/

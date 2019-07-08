@@ -1,0 +1,112 @@
+.calendar_icon, .chat_icon, .close_left_navigation, .contractors_icon, .conversion_icon, .credit_icon, .cross_icon, .currency_icon, .document_icon, .down_arrow_icon_blue, .down_arrow_icon, .employees_icon, .left_arrow_icon, .log_out_icon, .logotype_shape, .plus_icon, .point_dot, .setting_icon{
+	background: url(sprites.png) no-repeat;
+}
+
+.calendar_icon{
+	background-position: -64px -412px ;
+	width: 20px;
+	height: 22px;
+}
+
+.chat_icon{
+	background-position: -15px -213px ;
+	width: 24px;
+	height: 24px;
+}
+
+.close_left_navigation{
+	background-position: -15px -63px ;
+	width: 20px;
+	height: 18px;
+}
+
+.contractors_icon{
+	background-position: -65px -363px ;
+	width: 24px;
+	height: 24px;
+}
+
+.conversion_icon{
+	background-position: -63px -312px ;
+	width: 24px;
+	height: 20px;
+}
+
+.credit_icon{
+	background-position: -15px -314px ;
+	width: 24px;
+	height: 20px;
+}
+
+.cross_icon{
+	background-position: -70px -217px ;
+	width: 14px;
+	height: 14px;
+}
+
+.currency_icon{
+	background-position: -15px -364px ;
+	width: 24px;
+	height: 20px;
+}
+
+.document_icon{
+	background-position: -69px -266px ;
+	width: 16px;
+	height: 20px;
+}
+
+.down_arrow_icon_blue{
+	background-position: -71px -71px ;
+	width: 8px;
+	height: 5px;
+}
+
+.down_arrow_icon{
+	background-position: -65px -116px ;
+	width: 20px;
+	height: 20px;
+}
+
+.employees_icon{
+	background-position: -17px -411px ;
+	width: 16px;
+	height: 21px;
+}
+
+.left_arrow_icon{
+	background-position: -65px -170px ;
+	width: 24px;
+	height: 8px;
+}
+
+.log_out_icon{
+	background-position: -15px -265px ;
+	width: 20px;
+	height: 20px;
+}
+
+.logotype_shape{
+	background-position: 0 0;
+	width: 50px;
+	height: 50px;
+}
+
+.plus_icon{
+	background-position: -19px -116px ;
+	width: 16px;
+	height: 16px;
+}
+
+.point_dot{
+	background-position: -69px -19px ;
+	width: 12px;
+	height: 12px;
+}
+
+.setting_icon{
+	background-position: -14px -163px ;
+	width: 22px;
+	height: 22px;
+}
+
